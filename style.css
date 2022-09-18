@@ -55,7 +55,6 @@ body{
 .header{
     background-color: rgba(255, 255, 255, 0.75);
     padding: 25px 0;
-    width: auto;
 }
 .logo{
     margin-top: 7px;
@@ -343,7 +342,7 @@ body{
     padding: 15px;
 }
 .cents{
-   font-variant-position: super;
+   vertical-align: super;
 }
 .btn-details{
     background-color: #2c71b8;
