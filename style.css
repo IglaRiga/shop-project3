@@ -200,12 +200,27 @@ body{
     margin: 10px;
 }
 .left-block ul {
-    list-style-type: square;
+    /* list-style-type: square; */
     margin: 30px 15px;
 }
 .left-block li {
     padding: 7px;
-    margin-left: 50px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    float: left;
+    margin: 5px 15px;
+}
+input[type="checkbox"]:checked + label::before{
+    background-color: white;
 }
 .t1 {
     padding: 20px;
